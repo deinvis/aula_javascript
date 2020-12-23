@@ -3,9 +3,23 @@
     <head>
     <meta charset="UTF-8">
         <title>Minha página</title>
+        <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="./js/main.js"></script>
     </head>
     <body>
         <h1>Minha página</h1>
+        <button type="button" onclick="clicou()">Clique aqui para liberar acesso ao feice e um novo botao</button>
+        <button type="button" onclick="testes()">Clique aqui para ver sua idade</button>
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <select onchange="funcaochange(this)">
+            Você é gay?
+            <option value="sim">SIM</option>
+            <option value="nao">Não</option>
+        </select>
+
+
+        <div class="bolas">
+            <option value= "t" onmouseover="trocar(this)"  onmouseout="voltar(this)">o</option>  <option value= "i" onmouseover="trocar(this)"  onmouseout="voltar(this)">o</option> <option value= "a" onmouseover="trocar(this)"  onmouseout="voltar(this)">o</option>
+            <option value= "m" onmouseover="trocar(this)"  onmouseout="voltar(this)">o</option> <option value= "o" onmouseover="trocar(this)"  onmouseout="voltar(this)">o</option>
     </body>
 </html>
